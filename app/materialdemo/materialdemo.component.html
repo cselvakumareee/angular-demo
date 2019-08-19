@@ -1,0 +1,37 @@
+<div class="mat-h1">display4</div>
+<div class="mat-h3">display4</div>
+<div class="mat-h6">display4</div>
+<div class="mat-h2">display4</div>
+<div class="mat-display-4">display6</div>
+<button mat-raised-button disableRipple>selva</button>
+<button mat-fab>selva</button>
+<button mat-mini-fab disableribble>selva</button><br/>
+<mat-button-toggle-group #togglezero="matButtonToggleGroup" multiple vertical>
+        <mat-button-toggle aria-label="right" value="angular" disableRipple>
+                icon
+        </mat-button-toggle>
+        <mat-button-toggle aria-label="center" value="react">
+                selva
+        </mat-button-toggle>
+</mat-button-toggle-group>
+<div style="margin: 10px;padding:10px;">
+        <mat-icon matBadge="1" matBadgeOverlap="false" color="primary">bluetooth_searching</mat-icon>
+</div>
+
+<span [matBadge]="hide" matBadgeOverlap="false" [matBadgeHidden]="hide===0">notification</span>
+<div>
+        togglebtn:{{togglezero.value}}
+        togglepipe:{{togglezero.checked}}
+</div>
+<mat-progress-spinner [value]="show"></mat-progress-spinner>
+<button class="btn btn-primary">show</button>
+<div class="container-fluid">
+        <div class="row">
+                <mat-toolbar color="primary" class="navbar">
+                       <div class="col-lg-8 col-sm-8 col-md-8">Staffdeals</div>
+                       <div class="col-lg-1 col-sm-1 col-md-1">Home</div>
+                       <div class="col-lg-1 col-sm-1 col-md-1">About</div>
+                       <div class="col-lg-1 col-sm-1 col-md-1">Services</div>
+                </mat-toolbar>
+        </div>
+</div>
